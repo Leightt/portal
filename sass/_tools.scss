@@ -5,14 +5,38 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-rows: repeat(4, minmax(6rem, 1fr));
     grid-gap: 7rem;
+
 }
 
 .tool {
-    background-color: $color-secondary;
+ 
+    //background-color: $color-secondary;
 
-    img {
-        height: 1rem;
-        width: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, minmax(2rem, 4rem));
+    align-content: center;
+
+    .btn:link,
+    .btn:visited {
+        grid-column: 2 / 4;
+        font-family: $font-primary;    
+        font-weight: 400;
+        font-size: 2rem;
+        color: $color-secondary;
+        background-color: $color-primary;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 10rem;
+        transition: all .2s;
+
+    }
+
+    .btn:hover {
+        transform: translateY(-0.2rem);
     }
 }
+

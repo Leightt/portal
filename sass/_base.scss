@@ -1,14 +1,9 @@
 // COLOR VARIABLES
-$color-primary: #c4e3cb;
-$color-primary-dark: #8aae92;
+$color-primary: #535c68;
+$color-primary-dark: #2f3640;
 
-$color-secondary: #f4f9f4;
 
-$color-grey-light-1: #f9f7f6;
-$color-grey-light-2: #aaa;
-
-$color-grey-dark-1: #616161;
-
+$color-secondary: #f5f6fa;
 
 // FONT VARIABLES
 $font-primary: 'Source Sans Pro', sans-serif;
@@ -28,10 +23,9 @@ html {
 
 body {
     font-family: $font-primary;
-    color: $color-grey-dark-1;
     font-weight: 300;
     line-height: 1.6;
-    background-color: $color-primary;
+    background-color: $color-primary-dark;
 }
 
 .container {
