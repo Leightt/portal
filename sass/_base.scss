@@ -1,9 +1,6 @@
 // COLOR VARIABLES
-$color-primary: #535c68;
-$color-primary-dark: #2f3640;
-
-
-$color-secondary: #f5f6fa;
+$color-primary: #718093;
+$color-primary-dark: #535c68;
 
 // FONT VARIABLES
 $font-primary: 'Source Sans Pro', sans-serif;
@@ -23,14 +20,7 @@ html {
 
 body {
     font-family: $font-primary;
-    font-weight: 300;
     line-height: 1.6;
-    background-color: $color-primary-dark;
-}
-
-.container {
-    display: grid;
-    grid-template-rows: 10vh repeat(2, min-content);
-    grid-template-columns: repeat(8, minmax(min-content, 22rem));
-    justify-content: center;
+    background-color: $color-primary;
+    margin:15rem 20rem;
 }
